@@ -1,0 +1,251 @@
+@import "nullstyle.scss";
+
+
+.wrapper{
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+
+// - NAV
+
+.nav{
+    padding: 30px 0px 0px 0px;
+}
+
+.nav__flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav__ul{
+    display: flex;
+}
+
+.nav__li a{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 44.72px;
+    text-transform: uppercase;
+}
+
+.nav__li{
+    padding: 0px 40px 0px 0px;
+}
+
+.header{
+    background:url(../img/1.png) no-repeat center top fixed;
+    background-size:cover;
+    // min-height:100vh;
+    text-align:center;
+}
+
+.header__h1{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 44.72px;
+    text-align: left;
+}
+
+.header__text{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 44.72px;
+    padding: 18px 0px 20px 0px;
+    text-align: left;
+}
+
+.header__btn{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 44.72px;
+    border: 2px solid #ffffff;
+    background-color: #f74c55;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+    text-align: left;
+    margin: 0px 0px 220px 0px;
+}
+
+.header__flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10% auto;
+    // align-self: center;
+    padding: 0px 0px 0px 200px ;
+}
+
+// - COLOR
+
+.color__h1{
+    color: #000000;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 44.72px;
+    text-align: left;
+    padding: 86px 0px 0px 0px;
+
+}
+
+.color__text{
+    color: #404040;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24.72px;
+    text-align: left;
+    padding: 26px 0px 57px 0px;
+}
+
+.color{
+    display: flex;
+    justify-content: center;
+}
+
+.color__img{
+    padding: 0px 0px 88 px 0px;
+}
+
+// - SEO
+
+.seo__block1{
+    background-color: #404040;
+}
+
+.seo__block2{
+    background-color: #f74c55;
+}
+
+.seo__block3{
+    background-color: #2d5f3b;
+}
+
+.seo__flex{
+    display: flex;
+}
+
+.seo__h1{
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 44.72px;
+    text-align: left;
+    padding: 41px 0px 0px 50px;
+}
+
+.seo__text{
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 1rem;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24.72px;
+    text-align: left;
+    padding: 21px 0px 21px 50px;
+}
+
+.seo__img{
+    padding: 0px 0px 32px 50px;
+}
+
+.seo{
+    padding: 100px 0px 0px 0px;
+}
+
+@media (max-width:897px){
+    .seo__flex{
+        flex-direction: column;
+    }
+}
+
+// - MUSIC
+
+.music{
+    // background:url(../img/3.png) no-repeat center top fixed;
+    background:url(../img/3.png) no-repeat center top fixed;
+    background-size:cover;
+    // min-height:100vh;
+    text-align:center;
+}
+
+
+
+.music__h1{
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 42px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 53.72px;
+    text-align: center;
+    padding: 200px 10px 0px 10px;
+}
+
+.music__h1__item{
+    font-family: "Open Sans - Bold";
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.music{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.music__btn{
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 53.72px;
+    text-align: center;
+    background-color: rgba(28,28,28,0);
+    border: 2px solid #ffffff;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    margin: 50px 0px 200px 0px;
+}
+
+// - footer
+
+.footer__h1{
+    opacity: 0.8;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 53.72px;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
